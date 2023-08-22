@@ -1,1 +1,30 @@
-/* Write your CSS here */
+.controller-bg-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #475569;
+  padding: 20px 40px;
+}
+
+.checkbox-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.checkbox-item {
+  list-style-type: none;
+}
+
+.controller-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-left: 10px;
+}

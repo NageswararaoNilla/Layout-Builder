@@ -1,1 +1,163 @@
-/* Write your CSS here */
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .body-container {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+  }
+}
+
+.left-navbar {
+  background-color: #e2e8f0;
+  color: #475569;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  width: 100%;
+  margin: 4px 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .left-navbar {
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    max-width: 250px;
+    width: 30%;
+    margin: 4px 2px;
+  }
+}
+
+.list-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .list-items {
+    flex-direction: column;
+  }
+}
+
+.item {
+  list-style-type: none;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .item {
+    font-size: 24px;
+  }
+}
+
+.body-heading {
+  color: #475569;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .body-heading {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+
+.content {
+  background-color: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
+  padding: 18px;
+  margin: 4px 2px;
+}
+
+.content-description {
+  color: #475569;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-description {
+    text-align: left;
+    font-size: 24px;
+    margin: 0px;
+  }
+}
+
+.right-navbar {
+  background-color: #e2e8f0;
+  color: #475569;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  width: 100%;
+  margin: 4px 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .right-navbar {
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    max-width: 250px;
+    width: 30%;
+    margin: 4px 2px;
+  }
+}
+
+.ads-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .ads-container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.ad-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  height: 150px;
+  width: 180px;
+  border: 1px solid #64748b;
+  margin: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .ad-box {
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+}

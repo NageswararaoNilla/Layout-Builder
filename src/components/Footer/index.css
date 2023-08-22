@@ -1,1 +1,21 @@
-/* Write your CSS here */
+.footer-container {
+  background-color: #cbd5e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 90%;
+}
+
+.footer-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-text {
+    font-size: 42px;
+  }
+}

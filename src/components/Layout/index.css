@@ -1,1 +1,7 @@
-/* Write your CSS here */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+}
