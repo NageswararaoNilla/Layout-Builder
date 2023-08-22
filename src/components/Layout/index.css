@@ -3,5 +3,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 40px;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 550px;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    max-width: 1140px;
+  }
 }

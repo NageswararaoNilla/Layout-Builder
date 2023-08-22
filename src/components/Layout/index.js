@@ -1,14 +1,16 @@
 import Header from '../Header'
-import Body from '../Body'
 import Footer from '../Footer'
+import Body from '../Body'
 
 import './index.css'
 
 const Layout = () => (
   <div className="layout-container">
-    <Header />
-    <Body />
-    <Footer />
+    <div className="responsive-container">
+      <Header />
+      <Body />
+      <Footer />
+    </div>
   </div>
 )
 

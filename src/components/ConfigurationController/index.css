@@ -1,30 +1,60 @@
-.controller-bg-container {
+.configuration-controls-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #475569;
-  padding: 20px 40px;
 }
 
-.checkbox-list {
+@media screen and (min-width: 768px) {
+  .configuration-controls-container {
+    align-items: center;
+  }
+}
+
+.responsive-controls-container {
   display: flex;
   flex-direction: column;
-  padding: 0;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 550px;
 }
 
-.checkbox-item {
-  list-style-type: none;
+@media screen and (min-width: 768px) {
+  .responsive-controls-container {
+    max-width: 1140px;
+  }
 }
 
-.controller-heading {
+.layout-heading {
   color: #ffffff;
   font-family: 'Roboto';
-  font-size: 42px;
-  font-weight: bold;
+  font-size: 32px;
+  font-weight: 600;
 }
 
-.label {
+@media screen and (min-width: 768px) {
+  .layout-heading {
+    font-size: 48px;
+  }
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-text {
   color: #ffffff;
   font-family: 'Roboto';
-  font-size: 18px;
-  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
